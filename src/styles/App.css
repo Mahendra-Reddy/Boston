@@ -1,0 +1,45 @@
+/* Base Application Styles */
+/* body {
+  color: #fff;
+  background: #222;
+} */
+
+/* .index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+} */
+
+/* .index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+} */
+.roundedImage {
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  width:90px;
+  height:90px;
+  background-size:90px 0px; 
+}
+.leftpanel{
+  color: #333333;
+  font-size: 13px
+}
+.fontcolor{
+  color: #b3b3b3;
+  font-size: 13px;
+  padding-bottom: 4px;
+  padding-top: 2px
+}
+.bottomHeader{
+  color: #b3b3b3;
+  font-size: 17px;
+  font-weight: 30px
+}

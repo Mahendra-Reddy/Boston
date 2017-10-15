@@ -1,0 +1,91 @@
+module.exports = {
+  getDataList() {
+    return [{
+      id: 1,
+      name: 'Bill Gates',
+      img: '../images/bill-gates.jpg',
+      Age: 61,
+      Gender: 'M',
+      Location: 'Bangalore',
+      Phone: 7227779912,
+      Email: 'billgates@microsoft.com',
+      Dob: '28-10-1955',
+      Notes: 'Bill-gates',
+      Data: 'Gates is one of the best-known entrepreneurs of the personal computer revolution. He has been criticized for his business tactics, which have been considered anti-competitive. This opinion has been upheld by numerous court rulings.[11] Later in his career, Gates pursued a number of philanthropic endeavors. He donated large amounts of money to various charitable organizations and scientific research programs through the Bill & Melinda Gates Foundation, which was established in 2000.',
+      Message: 'Since 1987, Gates has been included in the Forbes list of the worlds wealthiest people.[12] As of September 2017, he is the richest person in the world, with an estimated net worth of US$84.8 billion.[1] In 2009, Gates and Warren Buffett founded The Giving Pledge, whereby they and other billionaires pledge to give at least half of their wealth to philanthropy.[13] The foundation works to save lives and improve global health, and is working with Rotary International to eliminate polio',
+      OverView: 'Image result for bill gates overview Entrepreneur and businessman Bill Gates (born October 28, 1955) and his partner Paul Allen founded and built the worlds largest software business, Microsoft, through technological innovation, keen business strategy and aggressive business tactics. In the process, Gates became one of the richest men in the world'
+    }, {
+      id: 2,
+      name: 'Marissa Mayer',
+      img: '../images/marissa-mayer.jpg',
+      Age: 42,
+      Gender: 'F',
+      Location: 'United States',
+      Phone: 9000000001,
+      Email: 'marissa.mayer@youtube.com',
+      Dob: '30-5-1975',
+      Notes: 'Marissa-Mayer',
+      OverView: 'YouTube is an American video-sharing website headquartered in San Bruno, California. The service was created by three former PayPal employees — Chad Hurley, Steve Chen, and Jawed Karim — in February ',
+      Data: 'Marissa Ann Mayer is an American information technology executive, formerly serving as the president and CEO of Yahoo!, a position she had held starting July 2012.',
+      Message: 'Mayer was born in Wausau, Wisconsin, the daughter of Margaret Mayer, art teacher of Finnish descent,[13] and Michael Mayer, an environmental engineer who worked for water companies.[14][15][16] Her grandfather, Clem Mayer, had polio when he was 7 and served as mayor of Jackson, Wisconsin, for 32 years.'
+    }, {
+      id: 3,
+      name: 'Mark Zuckerberg',
+      img: '../images/mark-zuckerberg.jpg',
+      Age: 33,
+      Gender: 'M',
+      Location: 'Unites States',
+      Phone: 8000000111,
+      Email: 'mark.zuckerberg@facebook.com',
+      Notes: 'Mark-Zuckerberg',
+      Dob: '14-5-1984',
+      Data: 'Gates is one of the best-known entrepreneurs of the personal computer revolution. He has been criticized for his business tactics, which have been considered anti-competitive. This opinion has been upheld by numerous court rulings.[11] Later in his career, Gates pursued a number of philanthropic endeavors. He donated large amounts of money to various charitable organizations and scientific research programs through the Bill & Melinda Gates Foundation, which was established in 2000.',
+      Message: 'Since 1987, Gates has been included in the Forbes list of the worlds wealthiest people.[12] As of September 2017, he is the richest person in the world, with an estimated net worth of US$84.8 billion.[1] In 2009, Gates and Warren Buffett founded The Giving Pledge, whereby they and other billionaires pledge to give at least half of their wealth to philanthropy.[13] The foundation works to save lives and improve global health, and is working with Rotary International to eliminate polio',
+      OverView: 'Facebook CEO'
+    }, {
+      id: 4,
+      name: 'Satya Nadella',
+      img: '../images/satya-nadella.jpg',
+      Age: 50,
+      Gender: 'M',
+      Location: 'Hyderabad',
+      Phone: 6000000111,
+      Email: 'satya.nadella@microsoft.com',
+      Dob: '19-8-1967',
+      Notes: 'Satya-Nadella',
+      OverView: 'Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports and sells computer software, consumer electronics, personal computers, and services',
+      Data: 'Gates is one of the best-known entrepreneurs of the personal computer revolution. He has been criticized for his business tactics, which have been considered anti-competitive. This opinion has been upheld by numerous court rulings.[11] Later in his career, Gates pursued a number of philanthropic endeavors. He donated large amounts of money to various charitable organizations and scientific research programs through the Bill & Melinda Gates Foundation, which was established in 2000.',
+      Message: 'Since 1987, Gates has been included in the Forbes list of the worlds wealthiest people.[12] As of September 2017, he is the richest person in the world, with an estimated net worth of US$84.8 billion.[1] In 2009, Gates and Warren Buffett founded The Giving Pledge, whereby they and other billionaires pledge to give at least half of their wealth to philanthropy.[13] The foundation works to save lives and improve global health, and is working with Rotary International to eliminate polio',
+      OverView: 'Microsoft CEO'
+    }, {
+      id: 5,
+      name: 'Steve Jobs',
+      img: '../images/stevejobs.jpg',
+      Age: 58,
+      Gender: 'M',
+      Location: 'United States',
+      Phone: 5000000111,
+      Email: 'steve.jobs@apple.com',
+      Dob: '24-2-1955',
+      Notes: 'Steve-Jobs',
+      Data: 'Gates is one of the best-known entrepreneurs of the personal computer revolution. He has been criticized for his business tactics, which have been considered anti-competitive. This opinion has been upheld by numerous court rulings.[11] Later in his career, Gates pursued a number of philanthropic endeavors. He donated large amounts of money to various charitable organizations and scientific research programs through the Bill & Melinda Gates Foundation, which was established in 2000.',
+      Message: 'Since 1987, Gates has been included in the Forbes list of the worlds wealthiest people.[12] As of September 2017, he is the richest person in the world, with an estimated net worth of US$84.8 billion.[1] In 2009, Gates and Warren Buffett founded The Giving Pledge, whereby they and other billionaires pledge to give at least half of their wealth to philanthropy.[13] The foundation works to save lives and improve global health, and is working with Rotary International to eliminate polio',
+      OverView: 'Apple CEO'
+    }, {
+      id: 6,
+      name: 'Sundar Pichai',
+      img: '../images/sundar-pichai.jpg',
+      Age: 45,
+      Gender: 'M',
+      Location: 'Madurai',
+      Phone: 7227779912,
+      Email: 'sundar.pichai@google.com',
+      Dob: '12-7-1972',
+      Notes: 'Sundar Pichai',
+      OverView: 'Microsoft details',
+      Data: 'Gates is one of the best-known entrepreneurs of the personal computer revolution. He has been criticized for his business tactics, which have been considered anti-competitive. This opinion has been upheld by numerous court rulings.[11] Later in his career, Gates pursued a number of philanthropic endeavors. He donated large amounts of money to various charitable organizations and scientific research programs through the Bill & Melinda Gates Foundation, which was established in 2000.',
+      Message: 'Since 1987, Gates has been included in the Forbes list of the worlds wealthiest people.[12] As of September 2017, he is the richest person in the world, with an estimated net worth of US$84.8 billion.[1] In 2009, Gates and Warren Buffett founded The Giving Pledge, whereby they and other billionaires pledge to give at least half of their wealth to philanthropy.[13] The foundation works to save lives and improve global health, and is working with Rotary International to eliminate polio',
+
+    }]
+  }
+}
